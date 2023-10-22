@@ -1,7 +1,7 @@
 function submitForm(e) {
     e.preventDefault();
   
-    var myform =    document.getElementById("login-form");
+    var myform =    document.getElementById("form");
   
     var payload = {
         "email" : myform.querySelector("#email").value,
